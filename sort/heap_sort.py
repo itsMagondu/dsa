@@ -1,7 +1,6 @@
 # Create heap
-x = [10,20,5,14,15,30,22]
+x = [10,20,5,14,15,30,22,34,50]
 heap = []
-
 
 def swap_insert(position):
   if position == 0:
@@ -38,7 +37,6 @@ def swap_delete(position, heap_size):
     return heap
 
 # Heap is a complete binary tree where the parent is always greater than all its descendants
-# Insert 
 def insert():
   for i,v in enumerate(x):
     if i == 0:
