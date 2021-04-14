@@ -1,5 +1,4 @@
-# partition list based on some number. Sort two parts
-unsorted_list = [7,4,3,8,1,5,9,6,2,0]
+unsorted_list = [5,4,3,8,1,7,9,6,2,0]
 unsorted_list.append(999)
 
 high = len(unsorted_list)-1
@@ -35,4 +34,4 @@ def partition(low, high):
   return j
 
 quicksort(low, high)
-print (unsorted_list)
+print (unsorted_list[:-1])
